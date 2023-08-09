@@ -17,16 +17,17 @@ const Develop = () => {
   return (
     <>
       <Merk />
+
       <section className='lg:ml-8 xl:ml-[110px] lg:mr-8 xl:mr-[110px] pt-20'>
         <div className='develop'>
-          <div className="flex items-start justify-between gap-5 pb-10">
+          <div className="flex items-start justify-between gap-5 pb-10 flex-col lg:flex-row xl:flex-row">
             <h1 className='max-w-[600px] text-4xl lg:text-[48px] font-bold leading-none mb-4 text-white'>Finally you can develop full-stack web applications in one place.</h1>
             <p className='max-w-[460px] mb-8 text-gray-custom'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
           </div>
           <div>
             <img src={ImageDevelop} alt="" />
           </div>
-          <div className='flex gap-10 py-8'>
+          <div className='flex gap-10 py-8 flex-col lg:flex-row xl:flex-row'>
             <Card
               title="Optimized Frameworks"
               desc="A custom environment designed especially for developing and facilitating React, Vue, Angular, and other frameworks."
@@ -40,14 +41,14 @@ const Develop = () => {
 
         <div className='circle pb-8 pt-12'>
           <h1 className='max-w-[880px] text-4xl lg:text-[48px] font-bold leading-tight mb-4 text-white'>Circle provides teams and individuals with customizable <span className='text-gradient'>management tools</span> for your source code.</h1>
-          <div className='flex py-2 gap-5 justify-between'>
+          <div className='flex py-2 gap-5 justify-between flex-col lg:flex-row xl:flex-row'>
             <div>
               <p className='max-w-[500px] mb-8 text-gray-custom leading-7'>Create issues, sections into tasks, track relationships, add custom spaces, and initiate discussions. Visualize large projects with spreadsheets or codeboards, and use the help of code systems to automate everything.</p>
               <div className='flex gap-5'>
                 <ButtonShine /><ButtonWatch />
               </div>
             </div>
-            <div className='code-develop mt-[-56px]'>
+            <div className='code-develop lg:mt-[-56px] xl:mt-[-56px]'>
               <img src={ImageCircle} alt="" />
             </div>
           </div>
@@ -61,14 +62,14 @@ const Develop = () => {
             <img src={IconSoftware} alt="" className='h-10' />
             <img src={IconSoftware2} alt="" className='h-10' />
           </div>
-          <div className='mx-96'>
+          <div className='mx-20 xl:mx-96 lg:mx-96'>
             <ButtonWatch customContent="Download Software" customImage={IconDownload} />
           </div>
         </div>
 
       </section>
 
-      <div className='flex justify-end'>
+      <div className='hidden xl:flex xl:justify-end'>
         <img src={ImageMoon2} alt="moon" />
       </div>
 
@@ -80,7 +81,7 @@ const Develop = () => {
           <p className='mt-2 text-gray-custom'>Spend less time on repetitive code patterns and more time on <br /> what really matters building great software.
           </p>
         </div>
-        <div className='flex gap-6'>
+        <div className='flex flex-col lg:flex-row xl:flex-row gap-6'>
           <Card
             title="Get customized AI-based recommendations."
             desc="Get customized AI-based recommendations. A custom environment designed especially for developing and facilitating React, Vue, Angular, and other frameworks."

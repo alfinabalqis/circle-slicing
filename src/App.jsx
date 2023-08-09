@@ -8,7 +8,7 @@ import Footer from './sections/Footer'
 
 function App() {
   return (
-  <div className='h-full max-w-[1440px] mx-auto bg-dark-custom'>
+  <div className='h-full w-full mx-auto bg-dark-custom'>
     <Navbar/>
     <Hero/>
     <Content/>

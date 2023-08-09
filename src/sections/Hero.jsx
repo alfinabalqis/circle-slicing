@@ -6,7 +6,7 @@ import { ButtonWatch, ButtonShine } from '../components/Button'
 
 const Hero = () => {
   return (
-    <section className='h-full max-h-[640px] mb-0 z-20'>
+    <section className='h-full max-h-[640px] mb-5 lg:mb-0 xl:mb-0 z-20'>
       <div className='flex flex-col lg:flex-row items-start'>
         <div className='lg:ml-8 xl:ml-[110px] flex flex-col items-center lg:items-start text-center lg:text-left justify-center flex-1 px-4 lg:px-0 mt-40'>
           <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
@@ -23,7 +23,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className='max-w-3xl'>
+        <div className='hidden xl:block lg:block max-w-3xl'>
           <img src={HeroImage} alt='Hero Image' />
         </div>
       </div>

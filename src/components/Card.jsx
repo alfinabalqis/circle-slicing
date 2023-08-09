@@ -9,7 +9,7 @@ import Rate from '../assets/images/ic-star.svg'
 const Card = (props) => {
   const { className, title, desc, image } = props;
   return (
-    <div className={`rounded-lg w-1/2 bg-black-custom ${className}`}>
+    <div className={`rounded-lg bg-black-custom xl:w-1/2 lg:w-1/2 ${className}`}>
       <div className='px-10 py-8 text-white'>
         <div className="content mb-5">
           <h1 className='text-4xl lg:text-[26px] font-bold leading-none mb-4 leading-tight text-white'>{title}</h1>

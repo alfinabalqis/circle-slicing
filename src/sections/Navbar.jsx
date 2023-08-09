@@ -12,7 +12,7 @@ const Navbar = () => {
             </a>
             <div className='flex xl:gap-64'>
             <div class="flex md:order-2">
-                <button type="button" class="py-3 px-6 text-white bg-black rounded-lg border-2 flex items-center gap-2">Lets Building - Its Free <span>
+                <button type="button" class="py-3 px-6 text-white bg-black rounded-lg border-2 xl:flex items-center gap-2 hidden xl:block lg:block">Lets Building - Its Free <span>
                     <img src={Arrow} alt="" />
                 </span>
                 </button>
