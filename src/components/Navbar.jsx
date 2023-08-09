@@ -8,7 +8,7 @@ const Navbar = () => {
         <nav class="bg-transparent absolute lg:ml-8 xl:ml-[110px] z-0 top-0 left-0 ">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-8">
             <a href="#" class="flex items-center">
-                <img src={Logo} class="mr-5" alt="Flowbite Logo" />
+                <img src={Logo} class="mr-5" alt="Logo" />
             </a>
             <div className='flex xl:gap-64'>
             <div class="flex md:order-2">

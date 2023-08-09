@@ -2,9 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-.bg-image {
-    background-image: url('./assets/images/cobain.png');
-    /* Tambahan properti styling lainnya */
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    content: "";
+    background-image: url('../src/assets/images/bg.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.85
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: 'Inter', sans-serif;
 }
 
 .text-gradient {

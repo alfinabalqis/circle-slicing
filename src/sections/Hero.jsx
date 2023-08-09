@@ -13,9 +13,8 @@ const Hero = () => {
           <p className='max-w-[480px] mb-8 text-gray-custom'>
           Circle is a code development platform that gives innovators the speed and reliability they need to create at the speed of inspiration.
           </p>
-          <div className="flex gap-4">
-            <ButtonShine/>
-            <ButtonWatch/>
+          <div className="flex gap-5">
+            <ButtonShine/><ButtonWatch/>
           </div>
         </div>
 

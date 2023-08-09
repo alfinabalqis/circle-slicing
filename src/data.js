@@ -62,3 +62,26 @@ export const merk = [
         url: '/src/assets/images/img-merk-5.svg'
     }
 ]
+
+export const testimoni = [
+    {
+        id: 1,
+        name: "Leslie Alexander",
+        desc: "Circle is being used for my project, and the team has been very helpful. thanks, are there any new Tools you've tried this week?",
+    },
+    {
+        id: 2,
+        name: "Dianne Russell",
+        desc: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+    },
+    {
+        id: 3,
+        name: "Darrell Steward",
+        desc: "Making your own mobile app is currently pretty easy for me. Thank you, with the aid of Circle assistive technologies!",
+    },
+    {
+        id: 4,
+        name: "Leslie Alexander",
+        desc: "Circle is being used for my project, and the team has been very helpful. thanks, are there any new Tools you've tried this week?",
+    }
+]

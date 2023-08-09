@@ -10,7 +10,8 @@ export default {
         'gray-custom': '#9D9D9D',
         'dark-custom': '#020411',
         'green': '#B2FEFA',
-        'green-second': '#0ED2F7'
+        'green-second': '#0ED2F7',
+        'black-custom': '#151925'
       },
     },
   },
