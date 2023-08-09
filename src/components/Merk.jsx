@@ -1,6 +1,11 @@
 import React from 'react'
 import ImageCode from '../assets/images/img-hero.svg'
-import { merk } from '../data'
+import ImageMerk from '../assets/images/img-merk.svg'
+import ImageMerk1 from '../assets/images/img-merk-1.svg'
+import ImageMerk2 from '../assets/images/img-merk-2.svg'
+import ImageMerk3 from '../assets/images/img-merk-3.svg'
+import ImageMerk4 from '../assets/images/img-merk-4.svg'
+import ImageMerk5 from '../assets/images/img-merk-5.svg'
 import { Join } from './Card'
 
 const Merk = () => {
@@ -16,15 +21,16 @@ const Merk = () => {
 
             <div className='py-8'>
                 <div className="flex flex-col lg:flex-row xl:flex-row justify-between gap-8 m-0">
-                    {merk.map(merk => (
-                        <div key={merk.id}>
-                            <img src={merk.url} className='mx-auto' />
-                        </div>
-                    ))}
+                    <img src={ImageMerk} className='mx-auto' />
+                    <img src={ImageMerk1} className='mx-auto' />
+                    <img src={ImageMerk2} className='mx-auto' />
+                    <img src={ImageMerk3} className='mx-auto' />
+                    <img src={ImageMerk4} className='mx-auto' />
+                    <img src={ImageMerk5} className='mx-auto' />
                 </div>
             </div>
 
-            <Join/>
+            <Join />
         </section>
     )
 }
