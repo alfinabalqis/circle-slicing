@@ -2,15 +2,16 @@ import React from 'react'
 import ImageDevelop from '../assets/images/img-develop.svg'
 import ImageCircle from '../assets/images/img-circle.svg'
 import ImageMoon2 from '../assets/images/moon-2.svg'
-import ImageMoon3 from '../assets/images/moon-3.svg'
 import IconSoftware from '../assets/images/ic-software.svg'
 import IconSoftware2 from '../assets/images/ic-software-2.svg'
 import IconDownload from '../assets/images/ic-download.svg'
 import ImageIssue from '../assets/images/img-issue.svg'
 import ImageIssue2 from '../assets/images/img-issue2.svg'
-import { Card, Testimoni } from '../components/Card'
+
+import { Card } from '../components/Card'
 import { ButtonShine, ButtonWatch } from '../components/Button'
 import Merk from '../components/Merk'
+import Testimoni from '../components/Testimoni'
 
 const Develop = () => {
   return (
@@ -60,14 +61,14 @@ const Develop = () => {
             <img src={IconSoftware} alt="" className='h-10' />
             <img src={IconSoftware2} alt="" className='h-10' />
           </div>
-          <div className='mx-auto'>
+          <div className='mx-96'>
             <ButtonWatch customContent="Download Software" customImage={IconDownload} />
           </div>
         </div>
 
       </section>
 
-      <div className='py-8 flex justify-end'>
+      <div className='flex justify-end'>
         <img src={ImageMoon2} alt="moon" />
       </div>
 
@@ -98,10 +99,7 @@ const Develop = () => {
           <h1 className='text-4xl lg:text-[48px] font-semibold leading-tight py-6 text-white'>
             What people are saying about <span className='text-gradient'>Circle</span></h1>
         </div>
-
-        <div>
-          <Testimoni />
-        </div>
+        <Testimoni/>
       </div>
     </>
   )

@@ -55,3 +55,8 @@ code {
     -webkit-mask-composite: xor;
     mask-composite: exclude;
 }
+
+.menu-active{
+    font-weight: bold;
+    color: white;
+}

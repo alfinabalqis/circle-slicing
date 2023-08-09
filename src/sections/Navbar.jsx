@@ -27,7 +27,7 @@ const Navbar = () => {
                 <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:flex-row md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                     {menu.map(items => (
                         <li key={items.id}>
-                            <a href={items.url} class="block py-2 pl-3 pr-4 text-gray-custom " aria-current="page">{items.title}</a>
+                            <a href={items.url} class={`block py-2 pl-3 pr-4 text-gray-custom ${items.class}`} aria-current="page">{items.title}</a>
                         </li>
                     ))}
 

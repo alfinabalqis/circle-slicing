@@ -2,37 +2,177 @@ export const menu = [
     {
         id: 1,
         title: "How It Works?",
-        url: "/"
+        url: "/",
+        class: "menu-active"
     },
     {
         id: 2,
         title: "Develop",
-        url: "/develop"
+        url: "/develop",
+        class: ""
     },
     {
         id: 3,
         title: "Features",
-        url: "/features"
+        url: "/features",
+        class: ""
     },
     {
         id: 4,
         title: "Docs",
-        url: "/docs"
+        url: "/docs",
+        class: ""
     },
     {
         id: 5,
         title: "Resources",
-        url: "/resources"
+        url: "/resources",
+        class: ""
     },
     {
         id: 6,
         title: "Blog",
-        url: "/blog"
+        url: "/blog",
+        class: ""
     },
     {
         id: 7,
         title: "About",
-        url: "/about"
+        url: "/about",
+        class: ""
+    }
+]
+
+export const footerMenu = [
+    {
+        id: 1,
+        title: "Company",
+        listlistItems: [
+            {
+                id: 1,
+                title: "How It Works?",
+            },
+            {
+                id: 2,
+                title: "Features",
+            },
+            {
+                id: 3,
+                title: "Docs",
+            },
+            {
+                id: 4,
+                title: "Blog",
+            },
+            {
+                id: 5,
+                title: "About",
+            }
+        ]
+    },
+    {
+        id: 2,
+        title: "Resource",
+        listlistItems: [
+            {
+                id: 1,
+                title: "Docs",
+            },
+            {
+                id: 2,
+                title: "Forum",
+            },
+            {
+                id: 3,
+                title: "Careers",
+            },
+            {
+                id: 4,
+                title: "Templates",
+            },
+            {
+                id: 5,
+                title: "Feedback"
+            }
+        ]
+    },
+    {
+        id: 3,
+        title: "Legal",
+        listlistItems: [
+            {
+                id: 1,
+                title: "Terms of Service",
+            },
+            {
+                id: 2,
+                title: "Privacy Policy",
+            },
+            {
+                id: 3,
+                title: "Guidelines",
+            },
+            {
+                id: 4,
+                title: "Fair Use Policy",
+            },
+            {
+                id: 5,
+                title: "Feedback"
+            }
+        ]
+    },
+    {
+        id: 4,
+        title: "Support",
+        listlistItems: [
+            {
+                id: 1,
+                title: "FAQs",
+            },
+            {
+                id: 2,
+                title: "Call Center",
+            },
+            {
+                id: 3,
+                title: "Maintance",
+            },
+            {
+                id: 4,
+                title: "Status",
+            },
+            {
+                id: 5,
+                title: ""
+            }
+        ]
+    },
+    {
+        id: 5,
+        title: "Platform",
+        listlistItems: [
+            {
+                id: 1,
+                title: "Team",
+            },
+            {
+                id: 2,
+                title: "Security",
+            },
+            {
+                id: 3,
+                title: "Roadmap",
+            },
+            {
+                id: 4,
+                title: "Features",
+            },
+            {
+                id: 5,
+                title: "Enterprise"
+            }
+        ]
     }
 ]
 
@@ -60,28 +200,5 @@ export const merk = [
     {
         id: 6,
         url: '/src/assets/images/img-merk-5.svg'
-    }
-]
-
-export const testimoni = [
-    {
-        id: 1,
-        name: "Leslie Alexander",
-        desc: "Circle is being used for my project, and the team has been very helpful. thanks, are there any new Tools you've tried this week?",
-    },
-    {
-        id: 2,
-        name: "Dianne Russell",
-        desc: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
-    },
-    {
-        id: 3,
-        name: "Darrell Steward",
-        desc: "Making your own mobile app is currently pretty easy for me. Thank you, with the aid of Circle assistive technologies!",
-    },
-    {
-        id: 4,
-        name: "Leslie Alexander",
-        desc: "Circle is being used for my project, and the team has been very helpful. thanks, are there any new Tools you've tried this week?",
     }
 ]

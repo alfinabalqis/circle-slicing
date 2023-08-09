@@ -1,14 +1,10 @@
 import React from 'react'
-// import Slider from 'react-slick';
-// import 'slick-carousel/slick/slick.css';
-// import 'slick-carousel/slick/slick-theme.css';
 
 import { ButtonWatch } from './Button'
 import Arrow from '../assets/images/ic-arrow.svg'
 import ArrowBlack from '../assets/images/ic-arrow-black.svg'
-import Rate from '../assets/images/ic-star.svg'
 import IconProfile from '../assets/images/ic-profile.svg'
-import { testimoni } from '../data'
+import Rate from '../assets/images/ic-star.svg'
 
 const Card = (props) => {
   const { className, title, desc, image } = props;
@@ -44,63 +40,30 @@ const Join = () => {
   )
 }
 
-const Testimoni = () => {
-  // const settings = {
-  //   dots: true,
-  //   infinite: true,
-  //   speed: 500,
-  //   slidesToShow: 1,
-  //   slides
-  // }
-  
+const CardTestimoni = () => {
   return (
-   <div className='flex gap-5'>
-    {testimoni.map(items => (
-       <div className='p-6 bg-black-custom rounded-lg'>
-       <div className='flex items-center gap-5'>
-         <div>
-           <img src={IconProfile} alt="icon" />
-         </div>
-         <div>
-           <h3 className='lg:text-[16px] font-medium leading-tight my-1 text-white'>{items.name}</h3>
-           <p className='text-gray-custom'>Community</p>
-         </div>
-       </div>
-       <div className='pb-8 pt-3 text-gray-custom'>
-         <p>{items.desc}</p>
-       </div>
-       <div className='flex items-center gap-2'>
-         {Array.from({ length: 5 }, (_, index) => (
-           <img key={index} src={Rate} alt="Rating" />
-         ))}
-       </div>
-     </div>
-    ))}
-   </div>
-  // <Slider {...settings}>
-  //   {testimoni.map(items => (
-  //      <div className='p-6 bg-black-custom rounded-lg'>
-  //      <div className='flex items-center gap-5'>
-  //        <div>
-  //          <img src={IconProfile} alt="icon" />
-  //        </div>
-  //        <div>
-  //          <h3 className='lg:text-[16px] font-medium leading-tight my-1 text-white'>{items.name}</h3>
-  //          <p className='text-gray-custom'>Community</p>
-  //        </div>
-  //      </div>
-  //      <div className='pb-8 pt-3 text-gray-custom'>
-  //        <p>{items.desc}</p>
-  //      </div>
-  //      <div className='flex items-center gap-2'>
-  //        {Array.from({ length: 5 }, (_, index) => (
-  //          <img key={index} src={Rate} alt="Rating" />
-  //        ))}
-  //      </div>
-  //    </div>
-  //   ))}
-  // </Slider>
+    <div>
+      <div className='p-6 mx-2 bg-black-custom rounded-lg'>
+        <div className='flex items-center gap-5'>
+          <div>
+            <img src={IconProfile} alt="icon" />
+          </div>
+          <div>
+            <h3 className='lg:text-[16px] font-medium leading-tight my-1 text-white'>Leslie Alexander</h3>
+            <p className='text-gray-custom'>Community</p>
+          </div>
+        </div>
+        <div className='pb-8 pt-3 text-gray-custom'>
+          <p>Circle is being used for my project, and the team has been very helpful. thanks, are there any new Tools you've tried this week?</p>
+        </div>
+        <div className='flex items-center gap-2'>
+          {Array.from({ length: 5 }, (_, index) => (
+            <img key={index} src={Rate} alt="Rating" />
+          ))}
+        </div>
+      </div>
+    </div>
   )
 }
 
-export { Card, Join, Testimoni }
+export { Card, Join, CardTestimoni }

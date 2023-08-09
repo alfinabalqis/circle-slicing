@@ -1,9 +1,9 @@
 import React from 'react'
 
-import Navbar from './components/Navbar'
+import Navbar from './sections/Navbar'
 import Hero from './sections/Hero'
-import Merk from './components/Merk'
 import Content from './sections/Content'
+import Footer from './sections/Footer'
 
 
 function App() {
@@ -12,6 +12,7 @@ function App() {
     <Navbar/>
     <Hero/>
     <Content/>
+    <Footer/>
   </div>
   )
 }
